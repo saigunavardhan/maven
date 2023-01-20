@@ -2,7 +2,8 @@ package clinic.programming.training;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.apache.commons.long3.StringUtils;
+import org.apache.commons.lang3.StringUtils;
+
 
 public class Application {
 	
@@ -32,6 +33,6 @@ public class Application {
 	Application app = new Application();
 	app.greet();
 	int count = app.countWords("I have five words");
-	System.out.println("Word Count"+count);
+	System.out.println("Word Count: "+count);
     }
 }
